@@ -67,21 +67,21 @@
 
         default_layer {
             bindings = <
-&kp Q      &kp W           &kp E      &kp R      &kp T                                          &kp Y            &kp U  &lt 4 I    &kp O    &kp P
-&kp A      &kp S           &kp D      &kp F      &kp G           &kp ESCAPE      &kp DELETE     &kp H            &kp J  &kp K      &kp L    &kp MINUS
-&kp Z      &mt LEFT_WIN X  &kp C      &kp V      &kp B           &lt 4 TAB       &kp BACKSPACE  &kp N            &kp M  &kp COMMA  &kp DOT  &kp SLASH
-&kp LCTRL  &kp LEFT_SHIFT  &kp RCTRL  &mkp LCLK  &lt 1 LEFT_ALT  &kp SPACE       &kp SPACE      &lt 1 RIGHT_ALT                             &kp ENTER
+&kp Q      &kp W           &kp E      &kp R      &kp T                                          &kp Y            &kp U  &lt 4 I          &kp O              &kp P
+&kp A      &kp S           &kp D      &kp F      &kp G           &kp ESCAPE      &kp DELETE     &kp H            &kp J  &kp K            &mt LEFT_WIN L     &kp MINUS
+&kp Z      &mt LEFT_WIN X  &kp C      &kp V      &kp B           &lt 4 TAB       &kp BACKSPACE  &kp N            &kp M  &mt RCTRL COMMA  &mt RSHIFT PERIOD  &mt LCTRL SLASH
+&kp LCTRL  &kp LEFT_SHIFT  &kp RCTRL  &mkp LCLK  &lt 1 LEFT_ALT  &kp SPACE       &kp SPACE      &lt 1 RIGHT_ALT                                             &lt 4 ENTER
             >;
 
             sensor-bindings = <&inc_dec_kp PG_UP PAGE_DOWN>;
         };
 
-        FUNCTION {
+        NumberIconArrow {
             bindings = <
-&trans  &trans  &trans  &trans  &trans                       &kp F1  &kp F2  &kp F3  &kp F4  &kp F5
-&trans  &trans  &trans  &trans  &trans  &trans      &kp F13  &kp F6  &kp F7  &kp F8  &kp F9  &kp F10
-&trans  &trans  &trans  &trans  &trans  &trans      &trans   &trans  &trans  &trans  &trans  &kp F11
-&trans  &trans  &trans  &trans  &trans  &trans      &trans   &trans                          &kp F12
+&kp GRAVE  &kp N7        &kp N8        &kp N9        &kp N0                      &trans  &kp SQT   &kp EQUAL  &kp LEFT_BRACKET  &kp RIGHT_BRACKET
+&trans     &kp NUMBER_4  &kp N5        &kp NUMBER_6  &trans  &trans      &trans  &trans  &kp HOME  &kp UP     &kp END           &kp SEMICOLON
+&kp N0     &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &trans  &trans      &trans  &trans  &kp LEFT  &kp DOWN   &kp RIGHT         &kp BACKSLASH
+&trans     &trans        &trans        &mkp RCLK     &trans  &trans      &trans  &trans                                         &trans
             >;
         };
 
