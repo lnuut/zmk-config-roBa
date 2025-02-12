@@ -67,13 +67,11 @@
 
         default_layer {
             bindings = <
-&kp Q      &kp W           &kp E      &kp R      &kp T                                          &kp Y            &kp U  &lt 4 I          &kp O              &kp P
-&kp A      &kp S           &kp D      &kp F      &kp G           &kp ESCAPE      &kp DELETE     &kp H            &kp J  &kp K            &mt LEFT_WIN L     &kp MINUS
-&kp Z      &mt LEFT_WIN X  &kp C      &kp V      &kp B           &lt 5 TAB       &kp BACKSPACE  &kp N            &kp M  &mt RCTRL COMMA  &mt RSHIFT PERIOD  &mt LCTRL SLASH
-&kp LCTRL  &kp LEFT_SHIFT  &kp RCTRL  &mkp LCLK  &lt 1 LEFT_ALT  &kp SPACE       &kp SPACE      &lt 1 RIGHT_ALT                                             &lt 5 ENTER
+&kp Q      &kp W           &kp E      &kp R      &kp T                                                     &kp Y            &kp U  &lt 4 I          &kp O              &kp P
+&kp A      &kp S           &kp D      &kp F      &kp G           &mt ESCAPE LEFT_SHIFT      &kp DELETE     &kp H            &kp J  &kp K            &mt LEFT_WIN L     &kp MINUS
+&kp Z      &mt LEFT_WIN X  &kp C      &kp V      &kp B           &lt 5 TAB                  &kp BACKSPACE  &kp N            &kp M  &mt RCTRL COMMA  &mt RSHIFT PERIOD  &mt LCTRL SLASH
+&kp LCTRL  &kp LEFT_SHIFT  &kp RCTRL  &mkp LCLK  &lt 1 LEFT_ALT  &kp SPACE                  &kp SPACE      &lt 1 RIGHT_ALT                                             &lt 5 ENTER
             >;
-
-            sensor-bindings = <&inc_dec_kp PG_UP PAGE_DOWN>;
         };
 
         NumberIconArrow {
@@ -85,7 +83,7 @@
             >;
         };
 
-        NUM {
+        none {
             bindings = <
 &kp MINUS                   &kp KP_NUMBER_7  &kp KP_NUMBER_8  &kp KP_NUMBER_9  &kp PLUS                                                   &kp CARET         &kp AMPERSAND      &kp TILDE       &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS
 &kp SLASH                   &kp KP_NUMBER_4  &kp KP_NUMBER_5  &kp KP_NUMBER_6  &kp ASTERISK  &kp LC(LA(KP_NUMBER_0))      &kp UNDERSCORE  &kp EXCLAMATION   &kp AT_SIGN        &kp HASH        &kp DOLLAR            &kp PERCENT
@@ -94,7 +92,7 @@
             >;
         };
 
-        ARROW {
+        none2 {
             bindings = <
 &kp ESCAPE      &kp LC(LS(TAB))         &kp UP_ARROW    &kp LC(TAB)              &trans                       &trans  &trans  &trans  &trans  &trans
 &kp HOME        &kp LEFT_ARROW          &kp DOWN_ARROW  &kp RIGHT_ARROW          &kp END  &trans      &trans  &trans  &trans  &trans  &trans  &trans
@@ -105,7 +103,7 @@
             sensor-bindings = <&inc_dec_kp LC(PAGE_UP) LC(PAGE_DOWN)>;
         };
 
-        SCROLL {
+        none3 {
             bindings = <
 &trans  &trans  &trans  &trans  &trans                      &trans  &trans  &trans  &trans  &trans
 &trans  &trans  &trans  &trans  &trans  &trans      &trans  &trans  &trans  &trans  &trans  &trans
