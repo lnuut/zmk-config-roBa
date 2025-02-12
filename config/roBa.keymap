@@ -69,7 +69,7 @@
             bindings = <
 &kp Q      &kp W           &kp E      &kp R      &kp T                                          &kp Y            &kp U  &lt 4 I          &kp O              &kp P
 &kp A      &kp S           &kp D      &kp F      &kp G           &kp ESCAPE      &kp DELETE     &kp H            &kp J  &kp K            &mt LEFT_WIN L     &kp MINUS
-&kp Z      &mt LEFT_WIN X  &kp C      &kp V      &kp B           &lt 4 TAB       &kp BACKSPACE  &kp N            &kp M  &mt RCTRL COMMA  &mt RSHIFT PERIOD  &mt LCTRL SLASH
+&kp Z      &mt LEFT_WIN X  &kp C      &kp V      &kp B           &lt 5 TAB       &kp BACKSPACE  &kp N            &kp M  &mt RCTRL COMMA  &mt RSHIFT PERIOD  &mt LCTRL SLASH
 &kp LCTRL  &kp LEFT_SHIFT  &kp RCTRL  &mkp LCLK  &lt 1 LEFT_ALT  &kp SPACE       &kp SPACE      &lt 1 RIGHT_ALT                                             &lt 4 ENTER
             >;
 
