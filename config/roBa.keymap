@@ -76,10 +76,10 @@
 
         NumberIconArrow {
             bindings = <
-&kp GRAVE  &kp N7        &kp N8        &kp N9        &kp N0                      &trans         &kp SQT   &kp EQUAL       &kp LEFT_BRACKET    &kp RIGHT_BRACKET
-&trans     &kp NUMBER_4  &kp N5        &kp NUMBER_6  &trans  &trans      &trans  &kp BACKSLASH  &kp HOME  &kp UP          &kp END             &mt LEFT_SHIFT SEMICOLON
-&kp N0     &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &trans  &trans      &trans  &kp SLASH      &kp LEFT  &mt RCTRL DOWN  &mt LEFT_WIN RIGHT  &kp DELETE
-&trans     &trans        &trans        &mkp RCLK     &trans  &trans      &trans  &trans                                                       &trans
+&kp GRAVE  &kp N7        &kp N8        &kp N9        &kp N0                      &trans         &kp SQT   &kp EQUAL  &kp LEFT_BRACKET  &kp RIGHT_BRACKET
+&trans     &kp NUMBER_4  &kp N5        &kp NUMBER_6  &trans  &trans      &trans  &kp BACKSLASH  &kp HOME  &kp UP     &kp END           &mt LEFT_SHIFT SEMICOLON
+&kp N0     &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &trans  &trans      &trans  &kp SLASH      &kp LEFT  &kp DOWN   &kp RIGHT         &kp DELETE
+&trans     &trans        &trans        &mkp RCLK     &trans  &trans      &trans  &trans                                                &trans
             >;
         };
 
