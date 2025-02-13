@@ -67,19 +67,19 @@
 
         default_layer {
             bindings = <
-&mt ESCAPE Q  &kp W           &kp E      &kp R      &kp T                                     &kp Y            &kp U  &lt 4 I          &kp O              &lt 5 P
-&kp A         &kp S           &kp D      &kp F      &kp G           &trans         &trans     &kp H            &kp J  &kp K            &mt LEFT_WIN L     &kp MINUS
-&kp Z         &mt LEFT_WIN X  &kp C      &kp V      &kp B           &trans         &trans     &kp N            &kp M  &mt RCTRL COMMA  &mt RSHIFT PERIOD  &mt LCTRL SLASH
-&kp LCTRL     &kp LEFT_SHIFT  &kp RCTRL  &mkp LCLK  &lt 1 LEFT_ALT  &kp SPACE      &kp ENTER  &lt 1 RIGHT_ALT                                             &kp BACKSPACE
+&mt ESCAPE Q  &kp W           &kp E      &kp R      &kp T                                         &kp Y            &kp U  &lt 4 I          &kp O              &lt 5 P
+&kp A         &kp S           &kp D      &kp F      &kp G           &trans         &trans         &kp H            &kp J  &kp K            &mt LEFT_WIN L     &kp MINUS
+&kp Z         &mt LEFT_WIN X  &kp C      &kp V      &kp B           &trans         &trans         &kp N            &kp M  &mt RCTRL COMMA  &mt RSHIFT PERIOD  &mt LCTRL SLASH
+&kp LCTRL     &kp LEFT_SHIFT  &kp RCTRL  &mkp LCLK  &lt 1 LEFT_ALT  &kp SPACE      &kp BACKSPACE  &lt 1 RIGHT_ALT                                             &kp ENTER
             >;
         };
 
         NumberIconArrow {
             bindings = <
-&kp GRAVE  &kp N7        &kp N8        &kp N9        &kp N0                      &trans  &kp SQT   &kp EQUAL       &kp LEFT_BRACKET       &kp RIGHT_BRACKET
-&trans     &kp NUMBER_4  &kp N5        &kp NUMBER_6  &trans  &trans      &trans  &trans  &kp HOME  &kp UP          &kp END                &kp SEMICOLON
-&kp N0     &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &trans  &trans      &trans  &trans  &kp LEFT  &mt RCTRL DOWN  &mt RIGHT_SHIFT RIGHT  &mt LCTRL BACKSLASH
-&trans     &trans        &trans        &mkp RCLK     &trans  &trans      &trans  &trans                                                   &kp DEL
+&kp GRAVE  &kp N7        &kp N8        &kp N9        &kp N0                          &trans  &kp SQT   &kp EQUAL       &kp LEFT_BRACKET       &kp RIGHT_BRACKET
+&trans     &kp NUMBER_4  &kp N5        &kp NUMBER_6  &trans  &trans      &trans      &trans  &kp HOME  &kp UP          &kp END                &kp SEMICOLON
+&kp N0     &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &trans  &trans      &trans      &trans  &kp LEFT  &mt RCTRL DOWN  &mt RIGHT_SHIFT RIGHT  &mt LCTRL BACKSLASH
+&trans     &trans        &trans        &mkp RCLK     &trans  &trans      &kp DELETE  &trans                                                   &trans
             >;
         };
 
